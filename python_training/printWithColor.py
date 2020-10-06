@@ -1,10 +1,10 @@
-# 蓝色背景
+#blue background
 def blue_print(*s, end='\n'):
     for item in s:
         print('\033[46m {} \033[0m'.format(item), end='')
     print(end=end)
 
-# 高亮，绿色字体，红色背景
+#highlight/green font/red background
 def green_print(*s, end='\n'):
     # print('\033[1m {} \033[0m'.format(s), end=end)
     for item in s:
